@@ -24,21 +24,21 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp MINUS  &kp LCTRL  &mt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LEFT_SHIFT Z  &kp Z  &kp X  &kp C  &kp V  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH  &kp LGUI  &lt 1 SPACE  &mkp LCLK  &kp B  &lt 2 ENTER  &kp BACKSPACE
+&mt ESC TAB  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T  &mt NUMBER_6 Y  &mt N7 U  &mt N8 I  &mt N9 O  &mt N0 P  &kp MINUS  &kp LCTRL  &mt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LEFT_SHIFT Z  &kp Z  &kp X  &kp C  &kp V  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH  &kp LGUI  &lt 1 SPACE  &mkp LCLK  &kp B  &lt 2 ENTER  &kp BACKSPACE
             >;
         };
 
         nav {
             display-name = "NAV";
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC  &kp LCTRL  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC  &kp LCTRL  &trans  &trans  &trans  &trans  &mt LANGUAGE_2 LANGUAGE_1  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp LSHFT  &trans  &trans  &trans  &trans  &mt LANGUAGE_1 LANGUAGE_2  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
