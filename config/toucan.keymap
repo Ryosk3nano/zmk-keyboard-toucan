@@ -28,7 +28,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <12 37 40 13>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <100>;
         };
     };
 
