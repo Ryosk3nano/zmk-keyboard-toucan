@@ -25,21 +25,21 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <50>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <20>;
-            quick-tap-ms = <50>;
+            require-prior-idle-ms = <10>;
+            quick-tap-ms = <20>;
         };
     };
 
-    keymap {
+    keymap {  
         compatible = "zmk,keymap";
 
         base {
             display-name = "BASE";
             bindings = <
 &mt ESC TAB  &num_tap NUMBER_1 Q  &num_tap NUMBER_2 W  &num_tap NUMBER_3 E  &num_tap NUMBER_4 R  &num_tap N5 T  &num_tap NUMBER_6 Y  &num_tap N7 U  &num_tap N8 I  &num_tap N9 O  &num_tap N0 P  &mt EQUAL MINUS  &mt LEFT_SHIFT TAB  &mt LEFT_CONTROL A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &mt LANGUAGE_2 LANGUAGE_1  &kp Z  &kp X  &kp C  &kp V  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH  &mt LGUI GRAVE  &lt 1 SPACE  &mkp LCLK  &kp B  &lt 2 ENTER  &kp BACKSPACE
-            >;
+            >; 
         };
 
         nav {
